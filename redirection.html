@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Redirection Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 100px 100px;
+      padding: 100px 100px;
+      background-color: #f0f0f0;
+    }
+    h1{
+        text-align: center;
+        color: #0056b3;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <h1>Redirection Keyword</h1>
+        <p>Redirect is nothing but a mechanism of sending search engines and users on a different URL from the original one. The redirected page can be on the same server or on a different server. It can also be on the same website or on different websites.</p>
+    
+        <p>Redirect to a different page that was not requested is done by using ECMAScript 2015 or ES6. There are several methods used for performing page redirection, such as location.href, location.replace(), and many more.</p>
+    </div>
+    <div>
+        <button onclick="redirectToExample()">Go to Example.com</button>
+    </div>
+    
+    <script>
+    function redirectToExample() {
+      // Redirect to a different URL
+      window.location.href = "https://www.w3schools.com/howto/howto_js_redirect_webpage.asp";
+    }
+  </script>
+</body>
+</html>
