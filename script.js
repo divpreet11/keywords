@@ -10,7 +10,7 @@ void function () {
     console.log("Executed!");
   }();
 
-//Example-3
+// //Example-3
 void function hello() {   
     var msg = function ()   
     {console.log("Welcome back!!")};   
